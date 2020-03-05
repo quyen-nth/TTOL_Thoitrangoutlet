@@ -74,6 +74,8 @@ public class CreateCache {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		driver.get("https://thoitrangoutlet.com");
+		
+		//update
 	}
 
 	@AfterClass
